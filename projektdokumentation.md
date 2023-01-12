@@ -20,18 +20,26 @@
 
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
-* Tier 1 (Presentation): ...
+* Tier 1 (Presentation):
+* 
+* Der Spieler versucht in einem Gitter Wörter oder Redewendungen zu erraten, indem er Buchstaben an der Rate-Wand ratet, wobei er bestrebt ist, möglichst hohe Geldbeträge zu gewinnen. Eine Kategorie wird vorab genannt und Satzzeichen und Ziffern sind bereits an der Rate-Wand vorhanden.
+
 * Tier 2 (Webserver):
+* 
+* Im zweiten Teil des Spiels dreht der Spieler ein Glücksrad, um unterschiedliche Felder zu erhalten, die entweder Geldbeträge beinhalten, durch die der Spieler durch Raten von Konsonanten oder Kaufen von Vokalen Geld gewinnen kann, oder "Bankrott", bei dem der Spieler sein gesamtes Guthaben verliert und ein neues Spiel beginnen muss.
+* 
 * Tier 3 (Application Server):
+* In dieser Aufgabe wird kein Tier 3 erwähnt. Es handelt sich um ein Rätselspiel, bei dem der Spieler versucht Wörter oder Redewendungen zu erraten, indem er Buchstaben an der Rate-Wand ratet, um möglichst hohe Geldbeträge zu erhalten. Der Spieler dreht auch ein Glücksrad, um unterschiedliche Felder zu erhalten, die entweder Geldbeträge oder "Bankrott" enthalten und wenn der Spieler einen ungültigen Buchstaben ratet, verliert er Lebenspunkte.
+* 
 * Tier 4 (Dataserver):
 
 # 2 Technologie
 
-✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
+✍️ Um dieses Rätselspiel mit ASP.NET zu entwickeln, könnten wir eine Web-Anwendung erstellen, die die Benutzeroberfläche des Spiels enthält. Dazu könnten wir ASP.NET Core verwenden und das Model-View-Controller (MVC) Designmuster anwenden, um die Benutzersteuerung, die Datenverarbeitung und die Darstellung der Benutzeroberfläche voneinander zu trennen. Eine Datenbank wie SQL Server könnte verwendet werden, um die Rätsel-Phrasen oder -Wörter, die Kategorien und die Leistung des Spielers sowie den aktuellen Spiel-Status zu speichern. ASP.NET Identity könnte verwendet werden, um die Anmeldung und Verwaltung von Benutzerkonten zu handhaben.
 
 # 3 Datenbank
 
-✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
+✍️ Mit ASP.NET könnte die Datenbank mit Entity Framework gesteuert werden, einem Object-Relational-Mapping-Framework, das es ermöglicht, mit der Datenbank mittels C#-Code zu interagieren, anstatt SQL-Statements zu verwenden. Das Interface der Anwendung könnte mit ASP.NET Core und Razor Pages oder MVC erstellt werden, um eine benutzerfreundliche und ansprechende Benutzeroberfläche zu erstellen. Es könnten Formulare verwendet werden, um dem Benutzer die Möglichkeit zu geben, Buchstaben zu raten und das Glücksrad zu drehen, sowie Tabellen und Grafiken, um die aktuelle Spiel-Status und Leistung des Benutzers anzuzeigen.
 
 # 4.1 User Stories
 
@@ -41,17 +49,31 @@
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |Funktional       | Muss | Als Administrator möchte ich mich über einen Benutzernamen und Passwort authentifizieren können, um Zugang zu den administrativen                                     |Funktionen der Anwendung zu erhalten.
+| 2    |Funktional       |Muss  |Als Administrator möchte ich in der Lage sein, Phrasen und Rätselwörter hinzuzufügen, zu bearbeiten und zu löschen, um das Angebot des                                 |Spiels zu verwalten.                
+| 3    |Funktional       |Muss  |Als Administrator möchte ich Kategorien erstellen und Wörter und Fragen diesen Kategorien zuordnen können, um das Rätseln zu                                           |erleichtern.                        
+| 4    |Funktional       |Muss  |Als Administrator möchte ich einzelne Einträge in der Highscore-Liste löschen können, um unerwünschte oder ungültige Einträge zu                                       |entfernen.                          
+| 5    |Funktional       |Muss  |Als Spieler möchte ich über einen Webbrowser auf die Benutzeroberfläche des Spiels zugreifen können, um das Rätseln zu starten.                                       |                                                      
+| 6    |Funktional       |Muss  |Als Spieler möchte ich meinen Namen eingeben können, damit er in der Highscore-Liste angezeigt wird.                                                                   |                                    
+| 7    |Funktional       |Muss  |Als Spieler möchte ich meinen aktuellen Kontostand und die verbleibenden Lebenspunkte jederzeit einsehen können, um meinen Fortschritt                                 |im Spiel zu verfolgen.              
+| 8    |Funktional       |Muss  |Als Spieler möchte ich erfahren, ob meine Antwort richtig oder falsch war, um mein Rätselverständnis zu verbessern.                                                   |                                    
+| 9    |Funktional       |Muss  |Als Spieler möchte ich die Highscore-Liste ansehen können, um zu sehen, wie gut ich im Vergleich zu anderen abschneide.                                                                                    
+| 10   |Funktional       |Muss  |Als Spieler möchte ich die Möglichkeit haben, jederzeit zu spielen oder das Spiel zu beenden und meinen Gewinn in die Highscore-Liste                                 |zu übernehmen.                      
+| 11   |Funktional       |Muss  |Als Entwickler möchte ich sicherstellen, dass kein Rätselwort oder keine Phrase einem Spieler mehr als einmal gestellt wird, um die                                    Herausforderung des Spiels aufrechtzuerhalten.
+| 12   |Funktional       |Muss  |Als Entwickler möchte ich ein Transaktionsmanagement implementieren, um die Integrität der Daten in der Datenbank zu gewährleisten.
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
 # 4.2 Testfälle
 
-| TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| TC-№ | Vorbereitung                       | Eingabe | Erwartete Ausgabe |
+| ---- | ------------                       | ------- | ----------------- |
+| 1.1  |Benutzername und Passwort vorhanden | Anmeldung mit gültigem Benutzernamen und Passwort| Erfolgreiche anmeldung |
+| 2.1  |Fügen Sie eine Phrase oder ein Rätselwort hinzu  | Ein Wort | rfolgreich hinzugefügt wurde und im Angebot des Spiels erscheint.    |
+| 3.1  |Erstellen Sie eine Kategorie|Kategorei erstellen|erfolgreich erstellt und verfügbarbar|
+| 4.1  |Löschen Sie einen Eintrag aus der Highscore-Liste| Löschen| Erfolgreich gelöst und auf der Liste nicht auffindbar|
+| 5.1  ||||
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
