@@ -60,26 +60,34 @@
 | 9    |Funktional       |Muss  |Als Spieler möchte ich die Highscore-Liste ansehen können, um zu sehen, wie gut ich im Vergleich zu anderen abschneide.                                                                                    
 | 10   |Funktional       |Muss  |Als Spieler möchte ich die Möglichkeit haben, jederzeit zu spielen oder das Spiel zu beenden und meinen Gewinn in die Highscore-Liste                                 |zu übernehmen.                      
 | 11   |Funktional       |Muss  |Als Entwickler möchte ich sicherstellen, dass kein Rätselwort oder keine Phrase einem Spieler mehr als einmal gestellt wird, um die                                    Herausforderung des Spiels aufrechtzuerhalten.
-| 12   |Funktional       |Muss  |Als Entwickler möchte ich ein Transaktionsmanagement implementieren, um die Integrität der Daten in der Datenbank zu gewährleisten.
+| 12   |Funktional       |Kann  |Als Entwickler möchte ich ein Transaktionsmanagement implementieren, um die Integrität der Daten in der Datenbank zu gewährleisten.
 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
 # 4.2 Testfälle
 
-| TC-№ | Vorbereitung                       | Eingabe | Erwartete Ausgabe |
-| ---- | ------------                       | ------- | ----------------- |
-| 1.1  |Benutzername und Passwort vorhanden | Anmeldung mit gültigem Benutzernamen und Passwort| Erfolgreiche anmeldung |
-| 2.1  |Fügen Sie eine Phrase oder ein Rätselwort hinzu  | Ein Wort | rfolgreich hinzugefügt wurde und im Angebot des Spiels erscheint.    |
-| 3.1  |Erstellen Sie eine Kategorie|Kategorei erstellen|erfolgreich erstellt und verfügbarbar|
-| 4.1  |Löschen Sie einen Eintrag aus der Highscore-Liste| Löschen| Erfolgreich gelöst und auf der Liste nicht auffindbar|
-| 5.1  ||||
+| TC-№ | Vorbereitung                                         | Eingabe     | Erwartete Ausgabe 
+| ---- | ------------                                         | -------     | ----------------- 
+| 1.1  |Benutzername und Passwort vorhanden                   | Anmeldung mit gültigem Benutzernamen und Passwort| Erfolgreiche anmeldung |
+| 2.1  |Fügen Sie eine Phrase oder ein Rätselwort hinzu       | Ein Wort    | rfolgreich hinzugefügt wurde und im Angebot des Spiels erscheint.    |
+| 3.1  |Erstellen Sie eine Kategorie|Kategorei erstellen      |erfolgreich erstellt und verfügbarbar|
+| 4.1  |Löschen Sie einen Eintrag aus der Highscore-Liste     | Löschen     | Erfolgreich gelöst und auf der Liste nicht auffindbar|
+| 5.1  |Browser öffnen und URL Anwebndung eingeben            |Keine|die Benutzeroberfläche des Spiels wird geladen und ist in der Lage das Rätseln zu starten.|
+| 6.1  | Als Spieler möchte ich meinen Namen eingeben können, |
+        damit er in der Highscore-Liste angezeigt wird.       |Name eingeben|Name wird in der Highscore-Liste angezeigt|
+| 7.1  | Geben Sie einen gültigen Benutzernamen und Passwort  |Spiel starten| Aktueller Kontostand und die verbleibenden Lebenspunkte auf der Benutzeroberfläche                                                                                     wird angezeigt.
+| 8.1  |Geben Sie eine Antwort für ein Rätselwort |Wort eingeben|Die Anwendung zeigt die richtige oder falsche Antworten |
+| 9.1  | Öffnen Sie die Highscore-Liste |öffnen| Alle Spalten (Name des Spielers, Zeitpunkt des Spiels, Geldbetrag, Anzahl der Spielrunden) werden korrekt angezeigt
+| 10.1 |Spiel starten und Spielen | Spielen| Möglichkeit besteht, das Spiel jederzeit zu beenden und Ihren Gewinn in die Highscore-Liste zu übernehmen.
+| 11.1 |Spielen Sie das Spiel mehrmals| Speil spielen|  keine Phrase oder Rätselwort werden doppelt gestellt.
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 # 5 Prototyp
 
-✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
+✍️![image](https://user-images.githubusercontent.com/69576108/212012176-4f927782-46db-475d-96da-0df073499b09.png)
+
 
 # 6 Implementation
 
