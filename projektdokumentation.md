@@ -123,8 +123,17 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1    | ja / nein |                                           |
-| ...  |           |                                           |
+| 1    | ja |admin.xhtml, AdminBean.java|
+|2|Nein|Nicht implementiert|
+|3|Nein|Nicht implementiert|
+|4|Nein|Nicht implementiert|
+|5|Ja| Programm normal starten|
+|6|Ja| name.xhtml, NameBean.java|
+|7|Ja| game.xhtml, GuessingGameBean.java|
+|8|Ja| game.xhtml, GuessingGameBean.java|
+|9|Nein|highscore.xhtml, HighscoreBean.java|
+|10|Ja| game.xhtml, GuessingGameBean.java|
+
 
 # 8 Testprotokoll
 
