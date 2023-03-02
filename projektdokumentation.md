@@ -1,20 +1,20 @@
 # Projekt-Dokumentation
 
-✍️ Ihr Nachname
+Freitas
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | 0.0.2   |                                                              |
-|       | 0.0.3   |                                                              |
-|       | 0.0.4   |                                                              |
-|       | 0.0.5   |                                                              |
-|       | 0.0.6   |                                                              |
-|       | 1.0.0   |                                                              |
+|12.01.2023| 0.0.1   | Fragen 1-5 beantwortet|
+|19.01.2023| 0.0.2   |Informieren über Projektumsetzung mit ASP.net|
+|26.01.2023| 0.0.3   | Realisierung begonnen und festgestellt, dass ich mit JSF fortfahren will/muss|
+|02.02.2023| 0.0.4   | Mehrere Fehlversuche Datenbank zu implementieren |
+|20.02.2023| 0.0.5   | Spiellogik beendet, jedoch ohne Datenbank|
+|27.02.2023| 0.0.6   |Login beendet, Spiellogik Basis fertig|
+|02.03.2023| 1.0.0   |Dokumentation fertiggestellt, Aufnahme Video|
 
 # 0 Ihr Projekt
 
-Es handelt sich um ein Glücksrad, wo man die Möglichkeit bekommt, gewisse Wörter zu erraten.
+Bei diesem Projekt handelt es sich um ein Spiel, bei dem der Benutzer Wörter oder Redewendungen in einem Gitter erraten muss, indem er Buchstaben an einer Ratewand rät. Ziel des Spiels ist es, möglichst hohe Geldbeträge zu erspielen. Hierfür gibt es ein Glücksrad, welches verschiedene Feldtypen enthält und der Benutzer durch Drehen des Rades das jeweilige Feld auswählt. Das Spiel bietet somit eine unterhaltsame Möglichkeit, die eigenen Kenntnisse im Bereich der Wortfindung zu testen und dabei auch noch eine Chance auf hohe Gewinne zu haben.
 
 # 1 Analyse
 
@@ -28,7 +28,7 @@ Im zweiten Teil des Spiels dreht der Spieler ein Glücksrad, um unterschiedliche
 
 * Tier 3 (Application Server):
 
-In dieser Aufgabe wird kein Tier 3 erwähnt. Es handelt sich um ein Rätselspiel, bei dem der Spieler versucht Wörter oder Redewendungen zu erraten, indem er Buchstaben an der Rate-Wand ratet, um möglichst hohe Geldbeträge zu erhalten. Der Spieler dreht auch ein Glücksrad, um unterschiedliche Felder zu erhalten, die entweder Geldbeträge oder "Bankrott" enthalten und wenn der Spieler einen ungültigen Buchstaben ratet, verliert er Lebenspunkte.
+In dieser Aufgabe wird kein Tier 3 erwähnt. Es handelt sich um ein Rätselspiel, bei dem der Spieler versucht Wörter oder Redewendungen zu erraten, indem er Buchstaben an der Ratewand ratet, um möglichst hohe Geldbeträge zu erhalten. Der Spieler dreht auch ein Glücksrad, um unterschiedliche Felder zu erhalten, die entweder Geldbeträge oder "Bankrott" enthalten und wenn der Spieler einen ungültigen Buchstaben ratet, verliert er Lebenspunkte.
 
 * Tier 4 
  
@@ -36,7 +36,7 @@ In dieser Aufgabe wird kein Tier 3 erwähnt. Es handelt sich um ein Rätselspiel
 
 # 2 Technologie
 
-Um das Word Guesser-Spiel zu entwickeln, müssen verschiedene Technologien und Tools eingesetzt werden. JSF (JavaServer Faces) ist eine Java-Webanwendungs-Framework, die verwendet werden kann, um die Benutzeroberfläche des Spiels zu gestalten und zu verwalten. JSF bietet verschiedene Komponenten, mit denen Benutzeroberflächen erstellt werden können, z.B. Eingabefelder, Buttons, Labels und Dropdown-Listen. Mit JSF können Entwickler auch auf Ereignisse reagieren, die vom Benutzer ausgelöst werden, z.B. durch Klicken auf einen Button oder durch Eingabe von Text in ein Eingabefeld.
+Um das Word Guesser-Spiel zu entwickeln, müssen verschiedene Technologien und Tools eingesetzt werden. JSF (JavaServer Faces) ist ein Java-Webanwendungs-Framework, die verwendet werden kann, um die Benutzeroberfläche des Spiels zu gestalten und zu verwalten. JSF bietet verschiedene Komponenten, mit denen Benutzeroberflächen erstellt werden können, z.B. Eingabefelder, Buttons, Labels und Dropdown-Listen. Mit JSF können Entwickler auch auf Ereignisse reagieren, die vom Benutzer ausgelöst werden, z.B. durch Klicken auf einen Button oder durch Eingabe von Text in ein Eingabefeld.
 
 Eine weitere wichtige Technologie, die bei der Entwicklung des Word Guesser-Spiels eingesetzt werden kann, ist XAMPP. XAMPP ist ein kostenloses, plattformübergreifendes Tool, das eine komplette Entwicklungs- und Testumgebung für Webanwendungen bereitstellt. Es enthält Apache-Webserver, MySQL-Datenbank, PHP und Perl, die alle zur Erstellung von Webanwendungen erforderlich sind. Mit XAMPP können Entwickler eine lokale Umgebung einrichten, in der sie ihre Anwendung entwickeln, testen und debuggen können, bevor sie sie auf einem Live-Server bereitstellen.
 
@@ -96,20 +96,19 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 # 6 Implementation
 
-✍️ Halten Sie fest, wann Sie welche User Story bearbeitet haben
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-|1|| Landingpage erstellt, mit weiter Leitung zu Admin Area. Sobald man sich ein logt, kommt eine Fehlermeldung |
-|2| | Probleme mit dem Filter und Datenbank|
-|3||Nicht geschafft umzusetzen|
-|4||Nicht geschafft umzusetzen|
+|1|26.01.2023 | 02.02.2023| Landingpage erstellt, mit weiter Leitung zu Admin Area. Sobald man sich ein logt, kommt eine Fehlermeldung |
+|2|26.01.2023| Probleme mit dem Filter und Datenbank|
+|3|02.02.2023|Nicht geschafft umzusetzen|
+|4|28.02.2023|Nicht geschafft umzusetzen|
 |5|-|Dies ist kein Aufwand von dem Entwickler|
-|6||Erfolgreich programmiert|
-|7|| Erfolgreich implementiert|
-|8||Diverse Probleme aufgetreten, jedoch wurde es erfolgreich implementiert|
-|9||Highscore-Liste nicht erfolgreich implementiert, da diverse Probleme aufgetreten sind, die das Glücksrad nicht mehr spielbar machten|
-|10||Der Spieler hat nur die Möglichkeit ein Spiel neu starten, wenn er das Wort richtig erraten hat|
+|6|28.02.2023|Erfolgreich programmiert|
+|7|27.02.2023| Erfolgreich implementiert|
+|8|12.01.2023|Diverse Probleme aufgetreten, jedoch wurde es erfolgreich implementiert|
+|9|20.02.2023|Highscore-Liste nicht erfolgreich implementiert, da diverse Probleme aufgetreten sind, die das Glücksrad nicht mehr spielbar machten|
+|10|28.02.2023|Der Spieler hat nur die Möglichkeit ein Spiel neu starten, wenn er das Wort richtig erraten hat|
 
 
 
