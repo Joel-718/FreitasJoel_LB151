@@ -82,19 +82,18 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 | TC-№ | Vorbereitung                                         | Eingabe     | Erwartete Ausgabe 
 | ---- | ------------                                         | -------     | ----------------- 
-| 1.1  |Benutzername und Passwort vorhanden                   | Anmeldung mit gültigem Benutzernamen und Passwort| Erfolgreiche anmeldung, der Admin kann nun die Highscore liste und die Wörterliste bearbeiten.
-| 2.1  |Fügen Sie eine Phrase oder ein Rätselwort hinzu       | Ein Wort    | rfolgreich hinzugefügt wurde und im Angebot des Spiels erscheint.    |
-| 3.1  |Erstellen Sie eine Kategorie|Kategorei erstellen      |erfolgreich erstellt und verfügbarbar|
-| 4.1  |Löschen Sie einen Eintrag aus der Highscore-Liste     | Löschen     | Erfolgreich gelöst und auf der Liste nicht auffindbar|
-| 5.1  |Browser öffnen und URL Anwebndung eingeben            |Keine|die Benutzeroberfläche des Spiels wird geladen und ist in der Lage das Rätseln zu starten.|
-| 6.1  | Als Spieler möchte ich meinen Namen eingeben können, | damit er in der Highscore-Liste angezeigt wird.|Name eingeben|Name wird in der Highscore-Liste angezeigt|
-| 7.1  | Geben Sie einen gültigen Benutzernamen und Passwort  |Spiel starten| Aktueller Kontostand und die verbleibenden Lebenspunkte auf der Benutzeroberfläche                                                                                     wird angezeigt.
-| 8.1  |Geben Sie eine Antwort für ein Rätselwort |Wort eingeben|Die Anwendung zeigt die richtige oder falsche Antworten |
-| 9.1  | Öffnen Sie die Highscore-Liste |öffnen| Alle Spalten (Name des Spielers, Zeitpunkt des Spiels, Geldbetrag, Anzahl der Spielrunden) werden korrekt angezeigt
-| 10.1 |Spiel starten und Spielen | Spielen| Möglichkeit besteht, das Spiel jederzeit zu beenden und Ihren Gewinn in die Highscore-Liste zu übernehmen.
-| 11.1 |Spielen Sie das Spiel mehrmals| Speil spielen|  keine Phrase oder Rätselwort werden doppelt gestellt.
+| 1.1  |Benutzername und Passwort vorhanden                   | Anmeldung mit gültigem Benutzernamen und Passwort| Erfolgreiche Anmeldung, der Admin kann nun die Highscore liste und die Wörterliste bearbeiten
+| 2.1  |Fügen Sie eine Phrase oder ein Rätselwort hinzu       | Ein x-beliebiges Wort| Wurde Erfolgsreich hinzugefügt und erscheint per Zufall im Spiel|
+| 3.1  |Erstellen Sie eine Kategorie|Kategorie erstellen      |Erfolgreich erstellt und wird, sobald das Wort dieser Kategorie erraten werden muss, erscheint die korrekte Kategorie|
+| 4.1  |Löschen Sie einen Eintrag aus der Highscore-Liste     | Admin logt sich ein und löst ein Eintrag   | Erfolgreich gelöscht und auf der Liste nicht auffindbar|
+| 5.1  |Browser öffnen und URL Anwendung eingeben            |Keine|die Benutzeroberfläche des Spiels wird geladen und ist in der Lage das Rätseln zu starten.|
+| 6.1  | Als Spieler muss ich mein Name vor dem Spiel eingeben können, damit er in der Highscore-Liste angezeigt wird.|Name eingeben|Name wird in der Highscore-Liste angezeigt und wird beim Spiel mit dem richtigen Namen begrüsst|
+| 7.1  | Der User muss vor dem Spiel sein Name eingeben |Spiel starten| Aktueller Kontostand und die verbleibenden Lebenspunkte auf der Benutzeroberfläche werden angezeigt.|
+| 8.1  |Geben Sie eine Antwort für ein Rätselwort |Wort eingeben|Bei einer falschen Antwort geht dein Leben um eins runter, sobald es richtig ist, kommt eine Anzeige, dass du das Wort korrekt erraten hast und frag dich, ob du weiter spielen möchtest|
+| 9.1  | Öffnen Sie die Highscore-Liste |Drücken Sie auf den Button "Highscore"| Alle Spalten (Name des Spielers, Zeitpunkt des Spiels, Geldbetrag, Anzahl der Spielrunden) werden korrekt angezeigt|
+| 10.1 |Spiel starten und Spielen | Spielen| Möglichkeit besteht, das Spiel jederzeit zu beenden und Ihren Gewinn in die Highscore-Liste zu übernehmen.|
+| 11.1 |Spielen Sie das Spiel mehrmals| Spiel spielen|  keine Phrase oder Rätselwort werden doppelt gestellt.|
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 # 5 Prototyp
 
