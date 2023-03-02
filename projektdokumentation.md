@@ -106,7 +106,7 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-| ...        |       |              |
+|      |       |              |
 
 # 7 Projektdokumentation
 
