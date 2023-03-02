@@ -35,11 +35,24 @@
 
 # 2 Technologie
 
-✍️ Um dieses Rätselspiel mit ASP.NET zu entwickeln, könnten wir eine Web-Anwendung erstellen, die die Benutzeroberfläche des Spiels enthält. Dazu könnten wir ASP.NET Core verwenden und das Model-View-Controller (MVC) Designmuster anwenden, um die Benutzersteuerung, die Datenverarbeitung und die Darstellung der Benutzeroberfläche voneinander zu trennen. Eine Datenbank wie SQL Server könnte verwendet werden, um die Rätsel-Phrasen oder -Wörter, die Kategorien und die Leistung des Spielers sowie den aktuellen Spiel-Status zu speichern. ASP.NET Identity könnte verwendet werden, um die Anmeldung und Verwaltung von Benutzerkonten zu handhaben.
+Um das Word Guesser-Spiel zu entwickeln, müssen verschiedene Technologien und Tools eingesetzt werden. JSF (JavaServer Faces) ist eine Java-Webanwendungs-Framework, die verwendet werden kann, um die Benutzeroberfläche des Spiels zu gestalten und zu verwalten. JSF bietet verschiedene Komponenten, mit denen Benutzeroberflächen erstellt werden können, z.B. Eingabefelder, Buttons, Labels und Dropdown-Listen. Mit JSF können Entwickler auch auf Ereignisse reagieren, die vom Benutzer ausgelöst werden, z.B. durch Klicken auf einen Button oder durch Eingabe von Text in ein Eingabefeld.
+
+Eine weitere wichtige Technologie, die bei der Entwicklung des Word Guesser-Spiels eingesetzt werden kann, ist XAMPP. XAMPP ist ein kostenloses, plattformübergreifendes Tool, das eine komplette Entwicklungs- und Testumgebung für Webanwendungen bereitstellt. Es enthält Apache-Webserver, MySQL-Datenbank, PHP und Perl, die alle zur Erstellung von Webanwendungen erforderlich sind. Mit XAMPP können Entwickler eine lokale Umgebung einrichten, in der sie ihre Anwendung entwickeln, testen und debuggen können, bevor sie sie auf einem Live-Server bereitstellen.
+
+In Bezug auf das Word Guesser-Spiel können JSF und XAMPP zusammen eingesetzt werden, um die Benutzeroberfläche zu gestalten und die Datenbank zu verwalten. Die Benutzeroberfläche kann mithilfe von JSF-Komponenten erstellt werden, z.B. Textfelder für die Eingabe von Buchstaben, Buttons zum Drehen des Glücksrads und Anzeigen von Hinweisen. Die Benutzeroberfläche kann auch dynamisch gestaltet werden, indem JSF verwendet wird, um Ereignisse zu verarbeiten, z.B. das Aktualisieren von Ergebnissen nach dem Drehen des Glücksrads.
+
+Die Datenbank des Word Guesser-Spiels kann mit XAMPP verwaltet werden, indem MySQL verwendet wird, um die Spielergebnisse, Guthaben und die von den Spielern eingegebenen Buchstaben zu speichern. Die Datenbank kann auch verwendet werden, um Fragen und Kategorien zu speichern, die im Spiel verwendet werden können.
 
 # 3 Datenbank
 
-✍️ Mit ASP.NET könnte die Datenbank mit Entity Framework gesteuert werden, einem Object-Relational-Mapping-Framework, das es ermöglicht, mit der Datenbank mittels C#-Code zu interagieren, anstatt SQL-Statements zu verwenden. Das Interface der Anwendung könnte mit ASP.NET Core und Razor Pages oder MVC erstellt werden, um eine benutzerfreundliche und ansprechende Benutzeroberfläche zu erstellen. Es könnten Formulare verwendet werden, um dem Benutzer die Möglichkeit zu geben, Buchstaben zu raten und das Glücksrad zu drehen, sowie Tabellen und Grafiken, um die aktuelle Spiel-Status und Leistung des Benutzers anzuzeigen.
+Um die Datenbank mit XAMPP und JSF zu steuern, muss zunächst eine Verbindung zwischen den beiden hergestellt werden. Dazu kann JDBC (Java Database Connectivity) verwendet werden, eine Java-API, die es ermöglicht, Datenbanken über Java-Anwendungen zu verwalten.
+
+Sobald die Verbindung hergestellt ist, können verschiedene Operationen auf der Datenbank ausgeführt werden, z.B. das Abrufen von Daten, das Einfügen von Daten oder das Aktualisieren von Daten. In Bezug auf das Word Guesser-Spiel kann die Datenbank verwendet werden, um Spielergebnisse, Guthaben und eingegebene Buchstaben zu speichern. Die Datenbank kann auch dazu verwendet werden, Fragen und Kategorien zu speichern, die im Spiel verwendet werden.
+
+Das Interface des Word Guesser-Spiels kann mithilfe von JSF erstellt werden. Die Benutzeroberfläche kann verschiedene Komponenten enthalten, wie z.B. Textfelder, Buttons, Labels und Dropdown-Listen. Diese Komponenten können verwendet werden, um den Spielern die Eingabe von Buchstaben, das Drehen des Glücksrads und das Anzeigen von Hinweisen zu ermöglichen.
+
+Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet werden, die vom Benutzer ausgelöst werden. Zum Beispiel kann JSF verwendet werden, um die Ergebnisse nach dem Drehen des Glücksrads automatisch zu aktualisieren oder dem Spieler eine Meldung anzuzeigen, wenn er einen ungültigen Buchstaben eingegeben hat.
+
 
 # 4.1 User Stories
 
