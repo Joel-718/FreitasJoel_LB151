@@ -62,7 +62,7 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |Funktional       | Muss | Als Administrator möchte ich mich über einen Benutzernamen und Passwort authentifizieren können, um Zugang zu den administrativen                                     |Funktionen der Anwendung zu erhalten.
+| 1    |Funktional       | Muss | Als Administrator möchte ich mich über einen Benutzernamen und Passwort authentifizieren können, um Zugang zu den administrativen Funktionen der Anwendung zu erhalten.|
 | 2    |Funktional       |Muss  |Als Administrator möchte ich in der Lage sein, Phrasen und Rätselwörter hinzuzufügen, zu bearbeiten und zu löschen, um das Angebot des Spiels zu verwalten.|               
 | 3    |Funktional       |Muss  |Als Administrator möchte ich Kategorien erstellen und Wörter und Fragen diesen Kategorien zuordnen können, um das Rätseln zu erleichtern.|                       
 | 4    |Funktional       |Muss  |Als Administrator möchte ich einzelne Einträge in der Highscore-Liste löschen können, um unerwünschte oder ungültige Einträge zu entfernen.|                          
@@ -106,7 +106,18 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-|      |       |              |
+|   1   |       | Landingpage erstellt, mit weiter Leitung zu Admin Area |
+|2| | Probleme mit dem Filter und Datenbank|
+|3||Nicht geschafft umzusetzen|
+|4||Nicht geschafft umzusetzen|
+|5|-|Dies ist kein Aufwand von dem Entwickler|
+|6||Erfolgreich programmiert|
+|7|| Erfolgreich implementiert|
+|8||Diverse Probleme aufgetreten, jedoch wurde es erfolgreich implementiert|
+|9||Highscore-Liste nicht erfolgreich implementiert, da diverse Probleme aufgetreten sind, die das Glücksrad nicht mehr spielbar machten|
+|10||Der Spieler hat nur die Möglichkeit ein Spiel Neustarten, wenn er das Wort richtig erraten hat|
+
+
 
 # 7 Projektdokumentation
 
