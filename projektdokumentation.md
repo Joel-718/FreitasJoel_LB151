@@ -63,8 +63,8 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |Funktional       | Muss | Als Administrator möchte ich mich über einen Benutzernamen und Passwort authentifizieren können, um Zugang zu den administrativen                                     |Funktionen der Anwendung zu erhalten.
-| 2    |Funktional       |Muss  |Als Administrator möchte ich in der Lage sein, Phrasen und Rätselwörter hinzuzufügen, zu bearbeiten und zu löschen, um das Angebot des                                 |Spiels zu verwalten.                
-| 3    |Funktional       |Muss  |Als Administrator möchte ich Kategorien erstellen und Wörter und Fragen diesen Kategorien zuordnen können, um das Rätseln zu                                           |erleichtern.                        
+| 2    |Funktional       |Muss  |Als Administrator möchte ich in der Lage sein, Phrasen und Rätselwörter hinzuzufügen, zu bearbeiten und zu löschen, um das Angebot des Spiels zu verwalten.|               
+| 3    |Funktional       |Muss  |Als Administrator möchte ich Kategorien erstellen und Wörter und Fragen diesen Kategorien zuordnen können, um das Rätseln zu erleichtern.|                       
 | 4    |Funktional       |Muss  |Als Administrator möchte ich einzelne Einträge in der Highscore-Liste löschen können, um unerwünschte oder ungültige Einträge zu                                       |entfernen.                          
 | 5    |Funktional       |Muss  |Als Spieler möchte ich über einen Webbrowser auf die Benutzeroberfläche des Spiels zugreifen können, um das Rätseln zu starten.                                       |                                                      
 | 6    |Funktional       |Muss  |Als Spieler möchte ich meinen Namen eingeben können, damit er in der Highscore-Liste angezeigt wird.                                                                   |                                    
@@ -82,7 +82,7 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 | TC-№ | Vorbereitung                                         | Eingabe     | Erwartete Ausgabe 
 | ---- | ------------                                         | -------     | ----------------- 
-| 1.1  |Benutzername und Passwort vorhanden                   | Anmeldung mit gültigem Benutzernamen und Passwort| Erfolgreiche anmeldung |
+| 1.1  |Benutzername und Passwort vorhanden                   | Anmeldung mit gültigem Benutzernamen und Passwort| Erfolgreiche anmeldung, der Admin kann nun die Highscore liste und die Wörterliste bearbeiten.
 | 2.1  |Fügen Sie eine Phrase oder ein Rätselwort hinzu       | Ein Wort    | rfolgreich hinzugefügt wurde und im Angebot des Spiels erscheint.    |
 | 3.1  |Erstellen Sie eine Kategorie|Kategorei erstellen      |erfolgreich erstellt und verfügbarbar|
 | 4.1  |Löschen Sie einen Eintrag aus der Highscore-Liste     | Löschen     | Erfolgreich gelöst und auf der Liste nicht auffindbar|
