@@ -137,7 +137,7 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 # 8 Testprotokoll
 
-Aufnahme: [Gllücksrad-Aufnhame.zip](https://github.com/Joel-718/FreitasJoel_LB151/files/10872094/Gllucksrad-Aufnhame.zip)
+Aufnahme: [Glücksrad-Aufnahme.zip](https://github.com/Joel-718/FreitasJoel_LB151/files/10872102/Glucksrad-Aufnahme.zip)
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
