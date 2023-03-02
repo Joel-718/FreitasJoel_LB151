@@ -20,16 +20,19 @@
 
 * Tier 1 (Presentation):
  
-* Der Spieler versucht in einem Gitter Wörter oder Redewendungen zu erraten, indem er Buchstaben an der Rate-Wand ratet, wobei er bestrebt ist, möglichst hohe Geldbeträge zu gewinnen. Eine Kategorie wird vorab genannt und Satzzeichen und Ziffern sind bereits an der Rate-Wand vorhanden.
+Der Spieler versucht in einem Gitter Wörter oder Redewendungen zu erraten, indem er Buchstaben an der Rate-Wand ratet, wobei er bestrebt ist, möglichst hohe Geldbeträge zu gewinnen. Eine Kategorie wird vorab genannt und Satzzeichen und Ziffern sind bereits an der Rate-Wand vorhanden.
 
 * Tier 2 (Webserver):
 
-* Im zweiten Teil des Spiels dreht der Spieler ein Glücksrad, um unterschiedliche Felder zu erhalten, die entweder Geldbeträge beinhalten, durch die der Spieler durch Raten von Konsonanten oder Kaufen von Vokalen Geld gewinnen kann, oder "Bankrott", bei dem der Spieler sein gesamtes Guthaben verliert und ein neues Spiel beginnen muss.
+Im zweiten Teil des Spiels dreht der Spieler ein Glücksrad, um unterschiedliche Felder zu erhalten, die entweder Geldbeträge beinhalten, durch die der Spieler durch Raten von Konsonanten oder Kaufen von Vokalen Geld gewinnen kann, oder "Bankrott", bei dem der Spieler sein gesamtes Guthaben verliert und ein neues Spiel beginnen muss.
 
 * Tier 3 (Application Server):
-* In dieser Aufgabe wird kein Tier 3 erwähnt. Es handelt sich um ein Rätselspiel, bei dem der Spieler versucht Wörter oder Redewendungen zu erraten, indem er Buchstaben an der Rate-Wand ratet, um möglichst hohe Geldbeträge zu erhalten. Der Spieler dreht auch ein Glücksrad, um unterschiedliche Felder zu erhalten, die entweder Geldbeträge oder "Bankrott" enthalten und wenn der Spieler einen ungültigen Buchstaben ratet, verliert er Lebenspunkte.
 
-* Tier 4 (Dataserver):In meinem Projekt werde ich XAMPP als Datenbank-Server nutzen und dort die Rätsel-Wörter und -Phrasen, Kategorien, Highscores usw. speichern. Ich plane auch, das Transaktionsmanagement in meine Implementierung zu integrieren, um die Datenbank jederzeit in einem konsistenten Zustand zu halten. Dies ist insbesondere wichtig, um Dateninkonsistenzen zu vermeiden und die Integrität der gespeicherten Informationen sicherzustellen.
+In dieser Aufgabe wird kein Tier 3 erwähnt. Es handelt sich um ein Rätselspiel, bei dem der Spieler versucht Wörter oder Redewendungen zu erraten, indem er Buchstaben an der Rate-Wand ratet, um möglichst hohe Geldbeträge zu erhalten. Der Spieler dreht auch ein Glücksrad, um unterschiedliche Felder zu erhalten, die entweder Geldbeträge oder "Bankrott" enthalten und wenn der Spieler einen ungültigen Buchstaben ratet, verliert er Lebenspunkte.
+
+* Tier 4 
+ 
+(Dataserver):In meinem Projekt werde ich XAMPP als Datenbank-Server nutzen und dort die Rätsel-Wörter und -Phrasen, Kategorien, Highscores usw. speichern. Ich plane auch, das Transaktionsmanagement in meine Implementierung zu integrieren, um die Datenbank jederzeit in einem konsistenten Zustand zu halten. Dies ist insbesondere wichtig, um Dateninkonsistenzen zu vermeiden und die Integrität der gespeicherten Informationen sicherzustellen.
 
 # 2 Technologie
 
