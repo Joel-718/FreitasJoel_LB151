@@ -87,8 +87,7 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 | 3.1  |Erstellen Sie eine Kategorie|Kategorei erstellen      |erfolgreich erstellt und verfügbarbar|
 | 4.1  |Löschen Sie einen Eintrag aus der Highscore-Liste     | Löschen     | Erfolgreich gelöst und auf der Liste nicht auffindbar|
 | 5.1  |Browser öffnen und URL Anwebndung eingeben            |Keine|die Benutzeroberfläche des Spiels wird geladen und ist in der Lage das Rätseln zu starten.|
-| 6.1  | Als Spieler möchte ich meinen Namen eingeben können, |
-        damit er in der Highscore-Liste angezeigt wird.       |Name eingeben|Name wird in der Highscore-Liste angezeigt|
+| 6.1  | Als Spieler möchte ich meinen Namen eingeben können, | damit er in der Highscore-Liste angezeigt wird.|Name eingeben|Name wird in der Highscore-Liste angezeigt|
 | 7.1  | Geben Sie einen gültigen Benutzernamen und Passwort  |Spiel starten| Aktueller Kontostand und die verbleibenden Lebenspunkte auf der Benutzeroberfläche                                                                                     wird angezeigt.
 | 8.1  |Geben Sie eine Antwort für ein Rätselwort |Wort eingeben|Die Anwendung zeigt die richtige oder falsche Antworten |
 | 9.1  | Öffnen Sie die Highscore-Liste |öffnen| Alle Spalten (Name des Spielers, Zeitpunkt des Spiels, Geldbetrag, Anzahl der Spielrunden) werden korrekt angezeigt
