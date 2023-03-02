@@ -97,7 +97,7 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 # 5 Prototyp
 
-✍️![image](https://user-images.githubusercontent.com/69576108/212012176-4f927782-46db-475d-96da-0df073499b09.png)
+![Unbenannt](https://user-images.githubusercontent.com/69576108/222436244-76753894-55cd-4cba-b8c1-cec29e992945.PNG)
 
 
 # 6 Implementation
