@@ -106,7 +106,7 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-|   1   |       | Landingpage erstellt, mit weiter Leitung zu Admin Area |
+|1|| Landingpage erstellt, mit weiter Leitung zu Admin Area. Sobald man sich ein logt, kommt eine Fehlermeldung |
 |2| | Probleme mit dem Filter und Datenbank|
 |3||Nicht geschafft umzusetzen|
 |4||Nicht geschafft umzusetzen|
@@ -115,7 +115,7 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 |7|| Erfolgreich implementiert|
 |8||Diverse Probleme aufgetreten, jedoch wurde es erfolgreich implementiert|
 |9||Highscore-Liste nicht erfolgreich implementiert, da diverse Probleme aufgetreten sind, die das Glücksrad nicht mehr spielbar machten|
-|10||Der Spieler hat nur die Möglichkeit ein Spiel Neustarten, wenn er das Wort richtig erraten hat|
+|10||Der Spieler hat nur die Möglichkeit ein Spiel neu starten, wenn er das Wort richtig erraten hat|
 
 
 
@@ -137,7 +137,7 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 # 8 Testprotokoll
 
-
+Aufnahme: [Gllücksrad-Aufnhame.zip](https://github.com/Joel-718/FreitasJoel_LB151/files/10872094/Gllucksrad-Aufnhame.zip)
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
