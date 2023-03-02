@@ -14,7 +14,7 @@
 
 # 0 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Es handelt sich um ein Glücksrad, wo man die Möglichkeit bekommt, gewisse Wörter zu erraten.
 
 # 1 Analyse
 
