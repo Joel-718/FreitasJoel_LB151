@@ -65,15 +65,15 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 | 1    |Funktional       | Muss | Als Administrator möchte ich mich über einen Benutzernamen und Passwort authentifizieren können, um Zugang zu den administrativen                                     |Funktionen der Anwendung zu erhalten.
 | 2    |Funktional       |Muss  |Als Administrator möchte ich in der Lage sein, Phrasen und Rätselwörter hinzuzufügen, zu bearbeiten und zu löschen, um das Angebot des Spiels zu verwalten.|               
 | 3    |Funktional       |Muss  |Als Administrator möchte ich Kategorien erstellen und Wörter und Fragen diesen Kategorien zuordnen können, um das Rätseln zu erleichtern.|                       
-| 4    |Funktional       |Muss  |Als Administrator möchte ich einzelne Einträge in der Highscore-Liste löschen können, um unerwünschte oder ungültige Einträge zu                                       |entfernen.                          
-| 5    |Funktional       |Muss  |Als Spieler möchte ich über einen Webbrowser auf die Benutzeroberfläche des Spiels zugreifen können, um das Rätseln zu starten.                                       |                                                      
-| 6    |Funktional       |Muss  |Als Spieler möchte ich meinen Namen eingeben können, damit er in der Highscore-Liste angezeigt wird.                                                                   |                                    
-| 7    |Funktional       |Muss  |Als Spieler möchte ich meinen aktuellen Kontostand und die verbleibenden Lebenspunkte jederzeit einsehen können, um meinen Fortschritt                                 |im Spiel zu verfolgen.              
-| 8    |Funktional       |Muss  |Als Spieler möchte ich erfahren, ob meine Antwort richtig oder falsch war, um mein Rätselverständnis zu verbessern.                                                   |                                    
-| 9    |Funktional       |Muss  |Als Spieler möchte ich die Highscore-Liste ansehen können, um zu sehen, wie gut ich im Vergleich zu anderen abschneide.                                                                                    
-| 10   |Funktional       |Muss  |Als Spieler möchte ich die Möglichkeit haben, jederzeit zu spielen oder das Spiel zu beenden und meinen Gewinn in die Highscore-Liste                                 |zu übernehmen.                      
-| 11   |Funktional       |Muss  |Als Entwickler möchte ich sicherstellen, dass kein Rätselwort oder keine Phrase einem Spieler mehr als einmal gestellt wird, um die                                    Herausforderung des Spiels aufrechtzuerhalten.
-| 12   |Funktional       |Kann  |Als Entwickler möchte ich ein Transaktionsmanagement implementieren, um die Integrität der Daten in der Datenbank zu gewährleisten.
+| 4    |Funktional       |Muss  |Als Administrator möchte ich einzelne Einträge in der Highscore-Liste löschen können, um unerwünschte oder ungültige Einträge zu entfernen.|                          
+| 5    |Funktional       |Muss  |Als Spieler möchte ich über einen Webbrowser auf die Benutzeroberfläche des Spiels zugreifen können, um das Rätseln zu starten.|                                                                                         
+| 6    |Funktional       |Muss  |Als Spieler möchte ich meinen Namen eingeben können, damit er in der Highscore-Liste angezeigt wird.|                                                                                                    
+| 7    |Funktional       |Muss  |Als Spieler möchte ich meinen aktuellen Kontostand und die verbleibenden Lebenspunkte jederzeit einsehen können, um meinen Fortschritt im Spiel zu verfolgen.  |            
+| 8    |Funktional       |Muss  |Als Spieler möchte ich erfahren, ob meine Antwort richtig oder falsch war, um mein Rätselverständnis zu verbessern. |                                
+| 9    |Funktional       |Muss  |Als Spieler möchte ich die Highscore-Liste ansehen können, um zu sehen, wie gut ich im Vergleich zu anderen abschneide.|                                                                                  
+| 10   |Funktional       |Muss  |Als Spieler möchte ich die Möglichkeit haben, jederzeit zu spielen oder das Spiel zu beenden und meinen Gewinn in die Highscore-Liste zu übernehmen.|                      
+| 11   |Funktional       |Muss  |Als Entwickler möchte ich sicherstellen, dass kein Rätselwort oder keine Phrase einem Spieler mehr als einmal gestellt wird, um die Herausforderung des Spiels aufrechtzuerhalten.|
+| 12   |Funktional       |Kann  |Als Entwickler möchte ich ein Transaktionsmanagement implementieren, um die Integrität der Daten in der Datenbank zu gewährleisten.|
 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
