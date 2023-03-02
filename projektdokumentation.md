@@ -137,14 +137,22 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 # 8 Testprotokoll
 
-✍️ Fügen Sie hier den Link zu dem Video ein, welches den Testdurchlauf dokumentiert.
+
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+|1.1|02.03.2023|Negativ|Joel Freitas|
+|2.1|02.03.2023|Negativ|Joel Freitas|
+|3.1|02.03.2023|Neagtiv|Joel Freitas|
+|4.1|02.03.2023|Neagtiv|Joel Freitas|
+|5.1|02.03.2023|Positiv|Joel Freitas|
+|6.1|02.03.2023|Positiv|Joel Freitas|
+|7.1|02.03.2023|Positiv|Joel Freitas|
+|8.1|02.03.2023|Positiv|Joel Freitas|
+|9.1|02.03.2023|Neagtiv|Joel Freitas|
+|10.1|02.03.2023|Neagtiv|Joel Freitas|
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Zu Beginn von diesem Projekt hatte ich mich entschieden, mit ASP.net das Projekt zu programmieren. Nach den ersten zwei Male wurde mir dann klar, dass ich nicht vorwärtskomme und lieber zurück zu JSF komme, wo wir die letzten Monate sowieso schon eingearbeitet hatten. Dies hat mich sehr viel Zeit gekostet, dies verursachte lauter Zeitprobleme und konnte das Projekt nicht fertigstellen. Ausserdem war die Aussage, dass das Spiel nicht kompliziert sei, dies habe ich nicht so empfunden. Für mich war es eine richtige Herausforderung, einen etwas absehbaren Projekt zu programmieren.
 
 # 9 `README.md`
 
