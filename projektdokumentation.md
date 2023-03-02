@@ -18,20 +18,18 @@
 
 # 1 Analyse
 
-✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
-
 * Tier 1 (Presentation):
-* 
+ 
 * Der Spieler versucht in einem Gitter Wörter oder Redewendungen zu erraten, indem er Buchstaben an der Rate-Wand ratet, wobei er bestrebt ist, möglichst hohe Geldbeträge zu gewinnen. Eine Kategorie wird vorab genannt und Satzzeichen und Ziffern sind bereits an der Rate-Wand vorhanden.
 
 * Tier 2 (Webserver):
-* 
+
 * Im zweiten Teil des Spiels dreht der Spieler ein Glücksrad, um unterschiedliche Felder zu erhalten, die entweder Geldbeträge beinhalten, durch die der Spieler durch Raten von Konsonanten oder Kaufen von Vokalen Geld gewinnen kann, oder "Bankrott", bei dem der Spieler sein gesamtes Guthaben verliert und ein neues Spiel beginnen muss.
-* 
+
 * Tier 3 (Application Server):
 * In dieser Aufgabe wird kein Tier 3 erwähnt. Es handelt sich um ein Rätselspiel, bei dem der Spieler versucht Wörter oder Redewendungen zu erraten, indem er Buchstaben an der Rate-Wand ratet, um möglichst hohe Geldbeträge zu erhalten. Der Spieler dreht auch ein Glücksrad, um unterschiedliche Felder zu erhalten, die entweder Geldbeträge oder "Bankrott" enthalten und wenn der Spieler einen ungültigen Buchstaben ratet, verliert er Lebenspunkte.
-* 
-* Tier 4 (Dataserver):
+
+* Tier 4 (Dataserver):In meinem Projekt werde ich XAMPP als Datenbank-Server nutzen und dort die Rätsel-Wörter und -Phrasen, Kategorien, Highscores usw. speichern. Ich plane auch, das Transaktionsmanagement in meine Implementierung zu integrieren, um die Datenbank jederzeit in einem konsistenten Zustand zu halten. Dies ist insbesondere wichtig, um Dateninkonsistenzen zu vermeiden und die Integrität der gespeicherten Informationen sicherzustellen.
 
 # 2 Technologie
 
@@ -56,10 +54,6 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 
 # 4.1 User Stories
 
-✍️ Formulieren Sie klare Anforderungen in der Form von User Stories (*„als … möchte ich … damit …“*) und zu jeder Anforderung mindestens einen dazugehörigen Testfall (in Kapitel 4.2). 
-
-✍️ Formulieren Sie weitere, eigene Anforderungen und Testfälle, wie Sie Ihre Applikation erweitern möchten. Geben Sie diesen statt einer Nummer einen Buchstaben (`A`, `B`, etc.)
-
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |Funktional       | Muss | Als Administrator möchte ich mich über einen Benutzernamen und Passwort authentifizieren können, um Zugang zu den administrativen Funktionen der Anwendung zu erhalten.|
@@ -74,10 +68,7 @@ Das Interface kann auch dynamisch gestaltet werden, indem Ereignisse verarbeitet
 | 10   |Funktional       |Muss  |Als Spieler möchte ich die Möglichkeit haben, jederzeit zu spielen oder das Spiel zu beenden und meinen Gewinn in die Highscore-Liste zu übernehmen.|                      
 | 11   |Funktional       |Muss  |Als Entwickler möchte ich sicherstellen, dass kein Rätselwort oder keine Phrase einem Spieler mehr als einmal gestellt wird, um die Herausforderung des Spiels aufrechtzuerhalten.|
 | 12   |Funktional       |Kann  |Als Entwickler möchte ich ein Transaktionsmanagement implementieren, um die Integrität der Daten in der Datenbank zu gewährleisten.|
-
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
-
+ 
 # 4.2 Testfälle
 
 | TC-№ | Vorbereitung                                         | Eingabe     | Erwartete Ausgabe 
@@ -155,8 +146,7 @@ Aufnahme: [Glücksrad-Aufnahme.zip](https://github.com/Joel-718/FreitasJoel_LB15
 Zu Beginn von diesem Projekt hatte ich mich entschieden, mit ASP.net das Projekt zu programmieren. Nach den ersten zwei Male wurde mir dann klar, dass ich nicht vorwärtskomme und lieber zurück zu JSF komme, wo wir die letzten Monate sowieso schon eingearbeitet hatten. Dies hat mich sehr viel Zeit gekostet, dies verursachte lauter Zeitprobleme und konnte das Projekt nicht fertigstellen. Ausserdem war die Aussage, dass das Spiel nicht kompliziert sei, dies habe ich nicht so empfunden. Für mich war es eine richtige Herausforderung, einen etwas absehbaren Projekt zu programmieren.
 
 # 9 `README.md`
-
-✍️ Beschreiben Sie ausführlich in einer README.md, wie Ihre Applikation gestartet und ausgeführt wird. Legen Sie eine geeignete Möglichkeit (Skript, Export, …) bei, Ihre Datenbank wiederherzustellen.
+Die README.md Datei können sie unter dem Pfad auffinden: Joel-718/FreitasJoel-LB151/READ.me
 
 # 10 Allgemeines
 
